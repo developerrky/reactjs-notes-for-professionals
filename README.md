@@ -196,3 +196,5 @@ render() {
 }
 ```
 - Another great thing about mixing HTML into JavaScript is that it enforces better code standards for your markup.
+
+# React Component
