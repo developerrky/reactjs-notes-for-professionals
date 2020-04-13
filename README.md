@@ -130,3 +130,39 @@ The build process will be responsible for adding the required scripts to the bod
 - The pace of development is very high. 
 - ReactJS only covers the UI part, nothing else.
 - Because of a very high pace of development, ReactJS’s documentation is poorly maintained.
+
+# ReactJS vs Angular
+- ReactJS is a library while AngularJS is a framework.
+- ReactJS is developed by Facebook and AngularJS is developed by Google.
+- JSX is used in ReactJS. Typescript is used in AngularJS.
+- There is no concept of virtual DOM in AngularJS.
+- In reactJS, one-way data binding is used. In AngularJS, two-way data binding is used.
+There are a few advantages of AngularJS over ReactJS. AngularJS is a full-fledged framework that can solely be used for developing web applications. ReactJS always need additional libraries for routing, API interaction, etc. There is two-way data binding in AngularJS that is excellent while passing data through components. That does not mean the ReactJS’s one-way data binding is not good. The two-way data binding is always a better option. AngularJS uses typescript which is a superset of javascript. Typescript is a complex language and it is a bit difficult to master as compared to JSX. But typescript provides many additional functions like object-based programming. ReactJS is better than AngularJS in rendering data. There is no virtual DOM in AngularJS. That means while DOM manipulation, the whole of the original DOM is updated which makes it very slow. In JSX we write, both the logic and markup in one file, but in AngularJS, we have to use separate files. This makes coding in AngularJS very complex.
+
+I found better comparision on https://www.javatpoint.com/reactjs-vs-angularjs
+
+# React JSX
+JSX stands for JavaScript XML. JSX allows us to write HTML elements in JavaScript and place them in the DOM without any createElement()  and/or appendChild() methods.
+
+Facebook’s React team released JSX when they released React to provide a concise syntax for creating complex DOM trees with attributes. They also hoped to make React more readable, like HTML and XML.
+
+In JSX, an element’s type is specified with a tag. The tag’s attributes represent the properties. The element’s children can be added between the opening and closing tags.
+
+Because JSX is JavaScript, we can't use JavaScript reserved words. This includes words like class and for.
+
+As we have already seen that, all of the React components have a render function. The render function specifies the HTML output of a React component. JSX(JavaScript Extension), is a React extension which allows writing JavaScript code that looks like HTML. In other words, JSX is an HTML-like syntax used by React that extends ECMAScript so that HTML-like syntax can co-exist with JavaScript/React code. The syntax is used by preprocessors (i.e., transpilers like babel) to transform HTML-like syntax into standard JavaScript objects that a JavaScript engine will parse.
+
+JSX provides you to write HTML/XML-like structures (e.g., DOM-like tree structures) in the same file where you write JavaScript code, then preprocessor will transform these expressions into actual JavaScript code. Just like XML/HTML, JSX tags have a tag name, attributes, and children.
+
+> Example :
+JSX File
+```html 
+<div>Hello Rajesh</div>  
+```
+Corresponding Output
+```javascript
+React.createElement("div", null, "Hello Rajesh");  
+```
+The above line creates a react element and passing three arguments inside where the first is the name of the element which is div, second is the attributes passed in the div tag, and last is the content you pass which is the "Hello Rajesh."
+
+
