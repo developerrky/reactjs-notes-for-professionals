@@ -150,6 +150,8 @@ In JSX, an element’s type is specified with a tag. The tag’s attributes repr
 
 Because JSX is JavaScript, we can't use JavaScript reserved words. This includes words like class and for.
 
+To work with React you have to find a syntax extension to JavaScript called JSX, which looks like an XML tag (but is not). This syntax extension describes the look of the UI. JSX is the alternative of React.createElements. It is a JavaScript extension that allows us to define React elements using syntax that looks similar to HTML.
+
 As we have already seen that, all of the React components have a render function. The render function specifies the HTML output of a React component. JSX(JavaScript Extension), is a React extension which allows writing JavaScript code that looks like HTML. In other words, JSX is an HTML-like syntax used by React that extends ECMAScript so that HTML-like syntax can co-exist with JavaScript/React code. The syntax is used by preprocessors (i.e., transpilers like babel) to transform HTML-like syntax into standard JavaScript objects that a JavaScript engine will parse.
 
 JSX provides you to write HTML/XML-like structures (e.g., DOM-like tree structures) in the same file where you write JavaScript code, then preprocessor will transform these expressions into actual JavaScript code. Just like XML/HTML, JSX tags have a tag name, attributes, and children.
@@ -164,4 +166,33 @@ React.createElement("div", null, "Hello Rajesh");
 ```
 The above line creates a react element and passing three arguments inside where the first is the name of the element which is div, second is the attributes passed in the div tag, and last is the content you pass which is the "Hello Rajesh."
 
-
+# Why use JSX?
+- It is faster than regular JavaScript because it performs optimization while translating the code to JavaScript.
+- Instead of separating technologies by putting markup and logic in separate files, React uses components that contain both. - - We will learn components in a further section.
+- It is type-safe, and most of the errors can be found at compilation time.
+- It makes easier to create templates.
+- In JSX, because the HTML and JS are tied directly together, it’s as easy as using the JS formatting library right in the markup:
+```javascript
+import formatter from ‘formatter’;
+ 
+class PriceFormat extends React.Component {
+  render() {
+    return (
+      <h1>{formatter.currency(this.props.price)}</h1>
+    );
+  }
+}
+```
+- JSX feels natural with React when you’re rendering lists of data. Instead of using a for-each helper in the markup, with JSX, it’s as easy as doing a map to transform an array of data into an array of related markup:
+```javascript
+render() {
+  const contactListItems = this.props.contacts.map((contact) => {
+    return <ContactListItem {...contact} />
+  }
+ 
+  return (
+    <div>{contactListItems}</div>
+  );
+}
+```
+- Another great thing about mixing HTML into JavaScript is that it enforces better code standards for your markup.
