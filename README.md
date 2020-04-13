@@ -155,11 +155,10 @@ As we have already seen that, all of the React components have a render function
 JSX provides you to write HTML/XML-like structures (e.g., DOM-like tree structures) in the same file where you write JavaScript code, then preprocessor will transform these expressions into actual JavaScript code. Just like XML/HTML, JSX tags have a tag name, attributes, and children.
 
 > Example :
-JSX File
 ```html 
 <div>Hello Rajesh</div>  
 ```
-Corresponding Output
+>Corresponding Output
 ```javascript
 React.createElement("div", null, "Hello Rajesh");  
 ```
