@@ -1,5 +1,5 @@
 # What is ReactJS?
-ReactJS is an open-source, component based front end library responsible only for the view layer of the application. It is maintained by Facebook.
+ReactJS is an open-source, component based front end library responsible only for the view layer of the application. It was created by Jordan Walke, who was a software engineer at Facebook. It was initially developed and maintained by Facebook and was later used in its products like WhatsApp & Instagram. Facebook developed ReactJS in 2011 in its newsfeed section, but it was released to the public in the month of May 2013.
 
 React is a JavaScript library for building composable user interfaces. This means that we can build a user interface by composing items called components. A component is an element that contributes to building a user interface. It could be a textbox, a button, a whole form, a group of other components, and so on. Even the entire application's user interface is a component. So, React encourages the creation of components to build a user interface; it's even better if these components are reusable.
 
@@ -42,6 +42,7 @@ the .gitignore file.
 - **package.json** : The package.json file contains information about the project, such as the name, the version, and so on, and references to all the npm packages used by the current project. This is a Node.js asset that allows you to download
 the required packages when copying the project to another machine. It also contains the definitions of scripts that allow us to manage the project itself.
 - **.gitignore** : The .gitignore file is a hidden file in Unix-based systems, and it allows us to track which file(s) to ignore when using Git as a version control system. The create-react-app tool added this file because nowadays, it is essential to have a project under version control. It suggests Git, since it is one of the most popular version control systems.
+> **node_modules** : It contains the React library and any other third party libraries needed.
 > The public folder contains the static parts of our application:
 - **favicon** : This is the icon shown in the browser's address bar and is used for bookmarks.
 - **index.html:** : This is the HTML page containing the reference to our React code and providing a context to React rendering.
