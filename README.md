@@ -112,4 +112,21 @@ The build process will be responsible for adding the required scripts to the bod
 - **React JS has the backing of a strong community of experts** : React JS has the support of Instagram and Facebook teams as well as external experts whose numbers according to one estimate is more than 1100 contributors. Moreover, users can also ask questions on forums like Reactflux Chart, Discussion forum etc. For expanding knowledge, instructor-led learning of React JS is ideal.
 - **React is employed by thousands of International companies as well as advanced startups** : Thousands of International corporations are using React JS for creating their sites, apps and internal project, which speaks volumes of the amazing utility of React JS. Here are some examples of the International companies that use React Native: Walmart Labs, Airbnb, Baidu Mobile, Bloomberg, Delivery.com Go Daddy, Gyroscope etc. More sites such as Netflix, BBC, Dropbox, IMDb, Coursera, PayPal, Chrysler, Dailymotion, American Express, Khan Academy, New York Times and much more uses React JS.
 
-
+# Pros and cons of ReactJS
+> Pros of ReactJS
+- ReactJS uses virtual DOM that makes the user experience better. It also makes the developer’s job less complex.
+- JSX is used in ReactJS which is very simple and easy to learn. 
+- There is no need for separate files for logic and markup in ReactJS.
+- ReactJS is an open-source library that is maintained by Facebook. It is a constantly developing library.
+- The one-data binding makes the code very stable.
+- ReactJS also provides a mobile solution that is known as React Native.
+- ReactJS is faster for rendering as compared to other web frameworks.
+- Conditional statements in ReactJS are very helpful.
+- It is SEO friendly. 
+- It has a great developer’s toolkit.
+> Cons of ReactJS
+- It needs additional libraries for routing, state management, and API interaction.
+- ReactJS is a large size library.
+- The pace of development is very high. 
+- ReactJS only covers the UI part, nothing else.
+- Because of a very high pace of development, ReactJS’s documentation is poorly maintained.
