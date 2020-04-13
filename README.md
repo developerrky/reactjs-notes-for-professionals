@@ -19,3 +19,12 @@ browse the internet.
 - iii) **React developer tools** - This is a plugin that can extend the functionality of the browser’s developer tools.
 It creates a new tab in the developer tools where you can view React elements. If you prefer Chrome, you can install it as an extension; you can also install it as an add-on for Firefox.
 
+# Installation of React
+Fortunately, we can use create-react-app, a command-line interface (CLI) tool that allows us to set up a React-based application without needing to configure any of the aforementioned tools. It is based on Node.js and provides commands to set up and modify a React application in an immediate way.
+
+In order to install create-react-app, you need Node.js installed on your machine. You can install the CLI by typing the following command in a console window: 
+```npm install -g create-react-app```
+
+After installation, you can verify whether it is properly installed by typing the following command:
+```create-react-app --version```
+If all is OK, the installed version of create-react-app will be shown.
