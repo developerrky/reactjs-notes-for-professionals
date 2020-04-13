@@ -68,3 +68,31 @@ You need to enable JavaScript to run this app.
 ...
 </html>
 ```
+As we can see, it is a standard HTML page; however, a few things should be noted. First of all, we see a link to the manifest.json file:
+```html 
+<link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+```
+This manifest contains metadata for configuring our app as a PWA.
+
+The second thing we notice is the %PUBLIC_URL% placeholder in both link references:
+```html
+<link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+<link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+```
+This placeholder will be replaced with the actual URL of the public folder during the build process.
+
+```html 
+<div id="root"></div>
+```
+The body of the HTML page contains an empty div with a root identifier. This is an important item for the correct setup of our React application
+
+The build process will be responsible for adding the required scripts to the body. We can add any other required items to the HTML page, such as meta tags, web fonts, and so on. However, remember that files referenced inside the HTML markup should be put in the public folder. The node_modules folder contains the npm packages used by the project. Usually, you don't need to directly manage these files.
+
+> The most important folder for developing our application is the src folder. It contains the basic files, with the code that we can modify for our purposes. In particular, we will find the following files:
+- **index.js** : Contains the starting point of our application.
+- **index.css** : Stores the base styling for our application.
+- **App.js** : Contains the definition of the main component of the sample application.
+- **App.css** : Contains the styling of the App component.
+- **logo.svg** : This is the React logo.
+- **App.test.js** : Stores the basic unit test involving the App component.
+- **registerServiceWorker.js** : Contains the code to register the service worker in order to allow offline behavior, as per the PWA requirements
