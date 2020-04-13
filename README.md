@@ -12,10 +12,10 @@ Companies such as Airbnb, Microsoft, Netflix, Disney, Dropbox, Twitter, PayPal, 
 
 # React Developer Tools
 There are several developer tools that can be installed as browser extensions or addons that you may find useful as well:
--i) **react-detector** - react-detector is a Chrome extension that lets you know which websites are using
+- i) **react-detector** - react-detector is a Chrome extension that lets you know which websites are using
 React and which are not.
--ii) **show-me-the-react** - This is another tool, available for Firefox and Chrome, that detects React as you
+- ii) **show-me-the-react** - This is another tool, available for Firefox and Chrome, that detects React as you
 browse the internet.
--iii) **React developer tools** - This is a plugin that can extend the functionality of the browser’s developer tools.
+- iii) **React developer tools** - This is a plugin that can extend the functionality of the browser’s developer tools.
 It creates a new tab in the developer tools where you can view React elements. If you prefer Chrome, you can install it as an extension; you can also install it as an add-on for Firefox.
 
