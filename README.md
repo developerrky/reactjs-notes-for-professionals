@@ -9,3 +9,13 @@ aspect is important, since it allows us to classify it as a library, not as a fr
 The most powerful thing about React is that can be used in the client, server, mobile applications, and even VR applications.
 
 Companies such as Airbnb, Microsoft, Netflix, Disney, Dropbox, Twitter, PayPal, Salesforce, Tesla, and Uber are extensively using React in their projects.
+
+# React Developer Tools
+There are several developer tools that can be installed as browser extensions or addons that you may find useful as well:
+i) react-detector - react-detector is a Chrome extension that lets you know which websites are using
+React and which are not.
+ii) show-me-the-react - This is another tool, available for Firefox and Chrome, that detects React as you
+browse the internet.
+iii) React developer tools - This is a plugin that can extend the functionality of the browser’s developer tools.
+It creates a new tab in the developer tools where you can view React elements. If you prefer Chrome, you can install it as an extension; you can also install it as an add-on for Firefox.
+
