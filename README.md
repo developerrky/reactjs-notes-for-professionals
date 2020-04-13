@@ -48,7 +48,7 @@ the required packages when copying the project to another machine. It also conta
 - **manifest.json:** : This is a configuration file containing metadata according to the Progressive Web Apps (PWA) criteria.
 
 In particular, the index.html file is the starting point of our application. Let'stake a look at it so that we can understand what's special about it:
-```
+```html
 <!doctype html>
 <html lang="en">
 <head>
