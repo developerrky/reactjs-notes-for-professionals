@@ -42,4 +42,29 @@ the .gitignore file.
 - **package.json** : The package.json file contains information about the project, such as the name, the version, and so on, and references to all the npm packages used by the current project. This is a Node.js asset that allows you to download
 the required packages when copying the project to another machine. It also contains the definitions of scripts that allow us to manage the project itself.
 - **.gitignore** : The .gitignore file is a hidden file in Unix-based systems, and it allows us to track which file(s) to ignore when using Git as a version control system. The create-react-app tool added this file because nowadays, it is essential to have a project under version control. It suggests Git, since it is one of the most popular version control systems.
+> The public folder contains the static parts of our application:
+- **favicon** : This is the icon shown in the browser's address bar and is used for bookmarks.
+- **index.html:** : This is the HTML page containing the reference to our React code and providing a context to React rendering.
+- **manifest.json:** : This is a configuration file containing metadata according to the Progressive Web Apps (PWA) criteria.
 
+In particular, the index.html file is the starting point of our application. Let'stake a look at it so that we can understand what's special about it:
+```
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1,
+shrink-to-fit=no">
+<meta name="theme-color" content="#000000">
+<link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+...
+<title>React App</title>
+</head>
+<body>
+<noscript>
+You need to enable JavaScript to run this app.
+</noscript>
+<div id="root"></div>
+...
+</html>
+```
