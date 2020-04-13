@@ -96,3 +96,5 @@ The build process will be responsible for adding the required scripts to the bod
 - **logo.svg** : This is the React logo.
 - **App.test.js** : Stores the basic unit test involving the App component.
 - **registerServiceWorker.js** : Contains the code to register the service worker in order to allow offline behavior, as per the PWA requirements
+
+>The first command we will cover is ```npm start```. This command starts a development web server accepting requests at ```http://localhost:3000```.
